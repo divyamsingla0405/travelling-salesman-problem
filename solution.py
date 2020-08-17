@@ -165,9 +165,9 @@ elif x == 3:
 #case4
 elif x == 4:
     min4 = min(TS4.get(3),TS4.get(2),TS4.get(1))
-        for key, value in TS4.items():
-            if value == min4:
-                a4 = key     
+    for key, value in TS4.items():
+        if value == min4:
+            a4 = key     
     
     if a4 == 1:
         min1 = min(TS1.get(2),TS1.get(3))
